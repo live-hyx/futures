@@ -1,0 +1,158 @@
+#body{
+	overflow:-Scroll;
+	overflow-x:hidden;
+}
+/******************
+Page Quick Sidebar
+******************/
+/* Quick sidebar wrapper */
+.page-quick-room-wrapper {
+  transition: right 0.3s;
+  z-index: 9994;
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  right: 0px;
+  width: 100%;
+}
+/*** 
+Quick Sidebar Toggler 
+***/
+.page-quick-room-toggler {
+  overflow: hidden;
+  z-index: 9994;
+  display: none;
+  width: 28px;
+  height: 27px;
+  position: fixed;
+  top: 19px;
+  right: 15px;
+  text-align: center;
+  padding-top: 6px;
+}
+.page-quick-room-open .page-quick-room-toggler {
+  display: inline-block;
+}
+.page-quick-room-toggler > i {
+  font-size: 17px;
+}
+
+/***
+Quick Sidebar Content
+***/
+.page-quick-room-wrapper {
+  overflow: hidden;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat {
+  position: absolute !important;
+  width: 100% !important;
+  height:100% !important;
+  transition: margin 0.3s;
+  margin-left: 0px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-nav {
+  width:100%;
+  height:50px;
+  padding:10px 10px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-nav .page-quick-room-back-to-list {
+  vertical-align: middle;
+  font-size: 20px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-nav .page-quick-room-back-to-list > i {
+  font-size: 20px;
+  line-height: 20px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-nav .page-quick-room-user-name {
+  float:right;
+  text-align:center;
+  font-size: 20px;
+  margin:0px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages {
+  width: auto;
+  padding: 10px 10px;
+  top:10px;
+  bottom: 50px;
+  height: auto;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post {
+  transition: display 0.3s;
+  padding: 5px 0;
+  margin: 10px auto;
+  font-size: 12px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post .body {
+  display: block;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post .avatar {
+  width: 38.57143px;
+  border-radius: 50% !important;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.in .avatar {
+  float: left;
+  margin-right: 10px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.out .avatar {
+  float: right;
+  margin-left: 10px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post .name {
+  font-size: 12px;
+  font-weight: 300;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post .datetime {
+  font-size: 12px;
+  font-weight: 300;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post .message {
+  display: block;
+  padding: 5px;
+  position: relative;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.in .message {
+  text-align: left;
+  margin-left: 55px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.in .message .arrow {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: -6px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right-width: 6px;
+  border-right-style: solid;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.out .message {
+  margin-right: 55px;
+  text-align: right;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.out .message .arrow {
+  display: block;
+  position: absolute;
+  top: 9px;
+  right: -6px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left-width: 6px;
+  border-left-style: solid;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.out .name,
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-messages .post.out .datetime {
+  text-align: right;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-form {
+  width: 100%;
+  position: absolute;
+  bottom:0;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-form .input-group .form-control {
+  font-size: 20px;
+  height:40px;
+}
+.page-quick-room-wrapper .page-quick-room .page-quick-room-chat .page-quick-room-chat-user-form .input-group .input-group-btn .btn{
+  height:40px;
+}

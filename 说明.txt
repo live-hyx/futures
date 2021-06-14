@@ -1,0 +1,12 @@
+﻿˵����
+1.��MyEclipse 8.5����һ���¹���������XM09��ѹ�󿽱�����������ע��Ŀ¼������ME��MyEclipse����import��ʽ������Ŀ��
+2.��ME�����Ŀ�ı������ó�UTF-8���������У��д��󲻹ܣ��Ȱ�.metadata�µ�conf��Ŀ¼�Զ������ȣ�
+3.��test.sql���뱾�����ݿ��test���ݿ��ȷ��MySQL���ݿⱾ������ݿ��˺���ylx�˺ţ�����ylx��
+4.ֹͣ������Ŀ���޸�ME���������.metadata�µ�conf/server.xml�����ϡ�URIEncoding="UTF-8"��һ�
+5.�޸Ŀ���Ĭ���������Window->Preferences->General->Web Browser->Use external Web browser�����ò���ϵͳ���Chrome��
+6.�޸�server.xml����</Host>֮ǰ������£������С�D:\Program\TeachWorkspace���ĳ����Լ��Ĺ�����·����
+	<Context debug="0" docBase="D:\Program\TeachWorkspace\.metadata\.me_tcat\temp" path="/chart" reloadable="true"/>
+	<Context debug="0" docBase="C:\upload\temp" path="/temp" reloadable="true"/>
+	<Context debug="0" docBase="C:\upload" path="/upload" reloadable="true"/>
+6.����Ŀ¼��C:\upload\project\export���͡�C:\upload\temp��
+7.������Ŀ���㡰��Ŀ�������˵�ͼ�꣬�鿴���־��������

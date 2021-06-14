@@ -1,0 +1,404 @@
+/* General settings */
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+/* Toolbar styles */
+#toolbar {
+	position: relative;
+	padding-bottom: 0.5em;
+	display: none;
+}
+
+#toolbar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#toolbar ul li {
+	float: left;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+}
+
+#toolbar ul li a {
+	font-weight: bold;
+	font-size: smaller;
+	vertical-align: middle;
+	color: black;
+	text-decoration: none;
+}
+
+#toolbar ul li a:hover {
+	text-decoration: underline;
+}
+
+#toolbar ul li * {
+	vertical-align: middle;
+}
+
+/* The map and the location bar */
+#allmap {
+	position: relative;
+	border: 1px solid blue;
+}
+
+#wrapper {
+	width: 475px;
+}
+
+#location {
+	float: right;
+}
+
+#options {
+	position: absolute;
+	left: 13px;
+	top: 7px;
+	z-index: 3000;
+}
+
+/* Styles used by the default GetFeatureInfo output, added to make IE happy */
+table.featureInfo,table.featureInfo td,table.featureInfo th {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	padding: .2em .1em;
+}
+
+table.featureInfo th {
+	padding: .2em .2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #eee;
+}
+
+table.featureInfo td {
+	background: #fff;
+}
+
+table.featureInfo tr.odd td {
+	background: #eee;
+}
+
+table.featureInfo caption {
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: .2em .2em;
+}
+
+/*/////////*/
+#policeController {
+	height: 20px;
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	right: 1px;
+	z-index: 10000000;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	filter: alpha(opacity = 75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+#dialogHeader {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	border-bottom: 1px solid #8CBED7;
+	height: 37px;
+}
+
+#dialogHeader h1 {
+	border-bottom: 3px solid #8CBED7;
+	color: #376585;
+	float: left;
+	font-size: 14px;
+	height: 30px;
+	line-height: 32px;
+	padding: 2px 2px;
+	margin: 0;
+}
+
+#dialogItem {
+	margin: 0px 0px;
+	padding: 0;
+	clear: both;
+}
+
+#dialogItem a:link {
+	text-decoration: none;
+}
+
+#dialogItem a:visited {
+	text-decoration: none;
+}
+
+#dialogItem a:hover {
+	text-decoration: none;
+}
+
+#dialogItem a:active {
+	text-decoration: none;
+}
+
+#dialogBody {
+	padding: 5px 0px;
+	margin: 0px;
+}
+
+#dialogBody form {
+	padding: 0px;
+	margin: 0px;
+}
+
+#dialogBody label {
+	padding: 0px;
+	margin: 0px;
+	line-height: 25px;
+}
+
+#navarea {
+	height: 20px;
+	line-height: 20px;
+	padding: 2px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	z-index: 10000000;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	filter: alpha(opacity = 0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+#navarea a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+#navarea a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+#navarea a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+#navarea a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+#mysqldump {
+	height: 20px;
+	line-height: 20px;
+	padding: 2px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 2px;
+	left: 150px;
+	z-index: 10000000;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	filter: alpha(opacity = 0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+#mysqldump a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+#mysqldump a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+#mysqldump a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+#mysqldump a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+#navgation {
+	height: 400px;
+	width: 250px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	z-index: 999999;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+	display: none;
+}
+
+#navgationBody {
+	overflow-y: auto;
+	height: 370px;
+}
+
+#navgationBody a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+#navgationBody a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+#navgationBody a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#navgationBody a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+.navgationItem {
+	text-align: right;
+	clear: both;
+	padding: 3px 4px;
+	margin: 0px;
+}
+
+.navgationItem span {
+	float: left;
+}
+
+.delButton {
+	background: url("img/delNotOn.jpg") no-repeat scroll transparent;
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+}
+
+#navgation2 {
+	height: 400px;
+	width: 280px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 2px;
+	left: 260px;
+	z-index: 999999;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+	display: none;
+}
+
+#navgationHeader {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 27px;
+	height: 27px;
+	background-color: #E9ECF7;
+	padding: 0px 0px 0px 3px;
+}
+
+#navgationHeader img {
+	border: 0px;
+}
+
+#navgationSmall {
+	height: 27px;
+	width: 250px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	z-index: 999999;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+}
+
+#navgationSmall2 {
+	height: 27px;
+	width: 250px;
+	font-size: 14px;
+	position: absolute;
+	bottom: 2px;
+	left: 260px;
+	z-index: 999999;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+}
+
+/*����*/
+.clear {
+	clear: both;
+	height: 0px;
+}
+
+/*����*/
+.clear_height5 {
+	clear: both;
+	height: 5px;
+}
+
+/*��������ɫ����*/
+.clear_blueheight5 {
+	clear: both;
+	height: 5px;
+	background-color: #8CBED7;
+}
+
+.clear_blueheight1 {
+	clear: both;
+	height: 0px;
+	width: 100%;
+	background-color: #8CBED7;
+	padding: 0;
+	margin: 0;
+}
+
+#clear_blueheight1 {
+	clear: both;
+	height: 1px;
+	background-color: #8CBED7;
+}
+
+.clear_halfblueheight4 {
+	clear: both;
+	height: 4px;
+	width: 50%;
+	background-color: #8CBED7;
+}
+
+/*����*/
+.clear_height10 {
+	clear: both;
+	height: 10px;
+}

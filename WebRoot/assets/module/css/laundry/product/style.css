@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/**
+ *
+ * @编写：辛卫
+ * @修改：2016-03-13 12:00:00
+ */
+.cart_ico {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 999999;
+}

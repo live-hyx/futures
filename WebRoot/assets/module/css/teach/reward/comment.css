@@ -1,0 +1,110 @@
+.digg {
+	width: 220px;
+	height: 120px;
+	margin: 80px auto 20px auto;
+	position: relative;
+}
+
+#dig_up,#dig_down {
+	width: 200px;
+	height: 48px;
+	margin: 10px;
+	position: relative;
+	border: 1px solid #d3d3d3;
+	padding-left: 42px;
+	cursor: pointer
+}
+
+.digup {
+	background: url(../../img/public/dingcai.png) no-repeat 4px 2px;
+}
+
+.digup_on {
+	background: url(../../img/public/dingcai.png) no-repeat 4px -49px;
+}
+
+.digdown {
+	background: url(../../img/public/dingcai.png) no-repeat 4px -102px;
+}
+
+.digdown_on {
+	background: url(../../img/public/dingcai.png) no-repeat 4px -154px;
+}
+
+#num_up,#num_down {
+	position: absolute;
+	right: 6px;
+	top: 18px;
+	font-size: 20px;
+}
+
+#dig_up p {
+	height: 24px;
+	line-height: 24px;
+	color: #360
+}
+
+#dig_down p {
+	height: 24px;
+	line-height: 24px;
+	color: #f30
+}
+
+.bar {
+	width: 100px;
+	height: 12px;
+	line-height: 12px;
+	border: 1px solid #f0f0f0;
+	position: relative;
+	text-align: center
+}
+
+.bar span {
+	display: block;
+	height: 12px;
+}
+
+.bar i {
+	position: absolute;
+	top: 0;
+	left: 104px;
+}
+
+#bar_up span {
+	background: #360
+}
+
+#bar_down span {
+	background: #f60
+}
+
+#msg {
+	position: absolute;
+	right: 20px;
+	top: 40px;
+	font-size: 18px;
+	color: #f00
+}
+.small .pull-left{
+	padding-right:10px;
+}
+.btn-small{
+	line-height: 25px;
+	width: 80px;
+	text-align: center;
+	border: 1px solid #ef9ea3;
+	float: left;
+	color: #d70c18;
+	font-size: 13px;
+	border-radius: 5px!important;
+	box-sizing: border-box;
+}
+.btn-small:hover{
+	background-color:#E7EcE8;
+}
+.small .img-circle{
+	float: left;
+	border: 0px solid red;
+	width: 50px;
+	height: 50px;
+}
